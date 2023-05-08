@@ -20,16 +20,23 @@ body{}
 .card-filme {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
-  width: 25%;
+  width: 300px;
   height: auto;
-  padding: 20px;
+  padding: 10px;
   margin: 10px;
-  background-color: brown;
+  background-color: rgb(122, 56, 108);
 }
 
 .img-filme {
-  width: 100%;
-  height: 100%;
+  width: 86%;
 }
+
+.titulo-filme {
+  font-size: 30px;
+  margin: 5px;
+  color: bisque ;
+}
+
+
